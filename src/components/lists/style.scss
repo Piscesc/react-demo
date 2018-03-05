@@ -1,0 +1,43 @@
+.article_img{
+  width: 100%;
+}
+.article_info{
+  padding: .22rem .32rem;
+  .article_time{
+    margin-bottom: .14rem;
+    font-size: .2rem;
+    color: #bababa;
+  }
+  .article_link{
+    display: block;
+    border-bottom: 1px solid #d8d8d8;
+    .article_title{
+      font-size: .34rem;
+      color: #4a4a4a;
+      line-height: 120%;
+      margin-bottom: .2rem;
+      white-space: nowrap;
+      max-height: .96rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .article_desc{
+      font-size: .26rem;
+      color: #4a4a4a;
+      line-height: .36rem;
+      width: 6.34rem;
+      height: .72rem;
+      margin-bottom: .32rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      -webkit-line-break: auto;
+      -webkit-box-orient: vertical;
+      }
+    }
+    .article_btm{
+      margin-top: .22rem;
+      color: #9b9b9b;
+      font-size: .24rem;
+    }
+  }
